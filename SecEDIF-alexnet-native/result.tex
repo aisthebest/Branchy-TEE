@@ -1,0 +1,25 @@
+Traceback (most recent call last):
+  File "predict.py", line 16, in <module>
+    start = time.clock()
+AttributeError: module 'time' has no attribute 'clock'
+Error in sys.excepthook:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apport_python_hook.py", line 72, in apport_excepthook
+    from apport.fileutils import likely_packaged, get_recent_crashes
+  File "/usr/lib/python3/dist-packages/apport/__init__.py", line 5, in <module>
+    from apport.report import Report
+  File "/usr/lib/python3/dist-packages/apport/report.py", line 32, in <module>
+    import apport.fileutils
+  File "/usr/lib/python3/dist-packages/apport/fileutils.py", line 27, in <module>
+    from apport.packaging_impl import impl as packaging
+  File "/usr/lib/python3/dist-packages/apport/packaging_impl.py", line 23, in <module>
+    import apt
+  File "/usr/lib/python3/dist-packages/apt/__init__.py", line 36, in <module>
+    apt_pkg.init_system()
+apt_pkg.Error: E:Error reading the CPU table
+
+Original exception was:
+Traceback (most recent call last):
+  File "predict.py", line 16, in <module>
+    start = time.clock()
+AttributeError: module 'time' has no attribute 'clock'
