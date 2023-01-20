@@ -1,5 +1,7 @@
 # Branchy-TEE
-## A secure  and efficient inference framework for deep learning in  untrustworthy cloud platforms, termed Branchy-TEE, which  aims to protect the confidentiality and integrity of data and  models of multiple participating actors throughout the inference  process using the Trusted Execution Environment (TEE).
+ A secure  and efficient inference framework for deep learning in  untrustworthy cloud platforms, termed Branchy-TEE, which  aims to protect the confidentiality and integrity of data and  models of multiple participating actors throughout the inference  process using the Trusted Execution Environment (TEE).
+
+Moreover, Branchy-TEE dynamically loads the inference  network into the TEE on-demand based on early-exit  mechanism, expecting to break the hardware performance  bottleneck of the TEE.  Finally, the effectiveness and efficiency  of Branchy-TEE are verified through extensive experiments  in real environments while achieving an optimal  balance between accuracy and hardware resources.
 
 Prerequisites:
 
